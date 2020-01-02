@@ -1,0 +1,20 @@
+{
+  "name": "eiser-colorlib-recoded",
+  "version": "1.0.0",
+  "description": "recoded eiser template",
+  "main": "dist/index.html",
+  "scripts": {
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/j-guidry/eiser-ecommerce-recoded.git"
+  },
+  "keywords": [],
+  "author": "Jhabari Guidry",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-hb": "^8.0.0",
+    "gulp-rename": "^2.0.0"
+  }
+}
