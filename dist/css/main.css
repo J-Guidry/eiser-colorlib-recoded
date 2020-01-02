@@ -1,0 +1,21 @@
+.toggle-nav {
+  border: none;
+  background-color: white;
+  display: inline;
+  float: right;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+
+.burger-bar {
+  width: 20px;
+  height: 4px;
+  background-color: #1641ff;
+  margin: 3px;
+}
+
+.logo {
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+/*# sourceMappingURL=main.css.map */
