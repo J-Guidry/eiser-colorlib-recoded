@@ -1,16 +1,16 @@
 @font-face {
   font-family: 'font-awesome';
-  src:  url('fonts/font-awesome.eot?3vbm44');
-  src:  url('fonts/font-awesome.eot?3vbm44#iefix') format('embedded-opentype'),
-    url('fonts/font-awesome.ttf?3vbm44') format('truetype'),
-    url('fonts/font-awesome.woff?3vbm44') format('woff'),
-    url('fonts/font-awesome.svg?3vbm44#font-awesome') format('svg');
+  src:  url('fonts/font-awesome.eot?rqajg3');
+  src:  url('fonts/font-awesome.eot?rqajg3#iefix') format('embedded-opentype'),
+    url('fonts/font-awesome.ttf?rqajg3') format('truetype'),
+    url('fonts/font-awesome.woff?rqajg3') format('woff'),
+    url('fonts/font-awesome.svg?rqajg3#font-awesome') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-i {
+[class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'font-awesome' !important;
   speak: none;

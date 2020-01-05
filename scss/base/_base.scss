@@ -1,11 +1,52 @@
+body {
+    font-family: "Roboto",sans-serif;
+    color: #797979;
+    line-height: 20px;
+    text-align: left;
+}
 
+ul {
+    padding-left: 0;
+    margin-top: 0;
+}
 
+li {
+    list-style-type: none;
+}
 
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+button {
+    border: none;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+//Fonts
+$body-font: 'Roboto';
+$title-font: 'Heebo';
 
 // Colors
-$nav-icon: #1641ff;
+$nav-mobile-icon: #1641ff;
+$nav-icon: #e4e4e4;
 $green: #71cd14;
 $black: #2a2a2a;
 $icon: #4a4a4a;
 $text: #797979;
 $star: #fbd600;
+
+
+@mixin background-image($url, $size) {
+    position: relative;
+    z-index: 1;
+    background-image: url($url);
+    background-repeat: no-repeat;
+    background-size: $size;
+    background-position: center;
+}
