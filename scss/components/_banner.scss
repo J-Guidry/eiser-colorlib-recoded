@@ -17,14 +17,19 @@
 .banner-header {
     line-height: 40px;
     text-transform: uppercase;
+    align-self: flex-start;
+    margin-left: 2rem;
+    text-align: left;
 }
 
 .banner-paragraph {
     text-transform: uppercase;
     align-self: flex-start;
+    margin-left: 2rem;
 }
 
 .banner-description {
     align-self: flex-start;
     font-size: 1rem;
+    margin-left: 2rem;
 }

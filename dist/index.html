@@ -15,53 +15,95 @@
 </head>
 <body>
     <header>
-        <img class="logo" src="img/logo.png" alt="eiser logo">
-        <button class="toggle-nav">
-            <div class="burger-bar"></div>
-            <div class="burger-bar"></div>
-            <div class="burger-bar"></div>
-        </button>
-        <nav class="header-nav">
-            <ul class="nav-list">
-                <li>
+        <div class="top-menu">
+            <div class="top-left">
+                <p class="top-paragraphs">phone: +01 256 25 235</p>
+                <p class="top-paragraphs">email:info@eiser.com</p>
+            </div>
+            <div class="top-right">
+            <ul class="top-nav-links">
+                <li class="top-nav-link"><a href="#">gift card</a></li>
+                <li class="top-nav-link"><a href="#">track order</a></li>
+                <li class="top-nav-link"><a href="#">contact us</a></li>
+            </ul>
+            </div>
+        </div>
+        <div class="main-menu">
+            <div class="logo-container">
+            <img class="logo" src="img/logo.png" alt="eiser logo">
+            </div>
+            <button class="toggle-nav" aria-expanded="false" aria-controls="header-nav">
+                <span class="screen-reader-text">Menu</span> 
+                <div class="burger-bar"></div>
+                <div class="burger-bar"></div>
+                <div class="burger-bar"></div>
+            </button>
+            <nav class="header-nav">
+            <ul class="nav-list" role="menubar" aria-hidden="true">
+                <li role="menuitem">
                     <a class="nav-links" href="./index.html">home</a>
                 </li>
-                <li>
-                    <a class="nav-links" href="#">shop</a>
+                <li role="menuitem">
+                    <a class="nav-links dropdown-toggle" href="#">shop</a>
+                    <ul class="dropdown">
+                        <li>
+                            <a href="#" class="nav-links">shop category</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-links">product details</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-links">product checkout</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-links">shopping cart</a>
+                        </li>
+                    </ul>
                 </li>
-                <li>
-                    <a class="nav-links" href="#">blog</a>
+                <li role="menuitem">
+                    <a class="nav-links dropdown-toggle" href="#">blog</a>
+                    <ul class="dropdown">
+                        <li>
+                            <a href="#" class="nav-links">blog</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-links">blog details</a>
+                        </li>
+
+                    </ul>
                 </li>
-                <li>
+
+                <li role="menuitem">
                     <a class="nav-links" href="#">tracking</a>
                 </li>
-                <li>
+                <li role="menuitem">
                     <a class="nav-links" href="#">contact</a>
                 </li>
             </ul>
             <ul class="icon-navs">
-                <li class="icon-navs-items">
+                <li class="icon-nav-items">
                     <a class="nav-icons" href="#">
                         <i class="ti-search"></i>
                     </a>
                 </li>
-                <li class="icon-navs-items">
+                <li class="icon-nav-items">
                     <a class="nav-icons" href="#">
                         <i class="ti-shopping-cart"></i>
                     </a>
                 </li>
-                <li class="icon-navs-items">
+                <li class="icon-nav-items">
                     <a class="nav-icons" href="#">
                         <i class="ti-user"></i>
                     </a>
                 </li>
-                <li class="icon-navs-items">
+                <li class="icon-nav-items">
                     <a class="nav-icons" href="#">
                         <i class="ti-heart"></i>
                     </a>
                 </li>
             </ul>
-        </nav>
+            </nav>
+        </div>
     </header>
 
     <section class="banner">
