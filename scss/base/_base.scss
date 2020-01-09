@@ -28,6 +28,12 @@ p {
     margin-bottom: 10px;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+
 //Fonts
 $body-font: 'Roboto';
 $title-font: 'Heebo';
@@ -41,6 +47,7 @@ $icon: #4a4a4a;
 $text: #797979;
 $star: #fbd600;
 $top-menu: #f6f6f6;
+$border: #eff2f3;
 
 @mixin background-image($url, $size) {
     position: relative;
