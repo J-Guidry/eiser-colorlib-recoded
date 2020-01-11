@@ -1,5 +1,6 @@
 .new-product-area {
     margin-top: 120px;
+    margin-bottom: 50px;
 }
 
 .section-paragraph {
@@ -54,6 +55,13 @@
     bottom: 130px;
 }
 
+.inspired-products {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: 50px auto;
+}
+
 @media screen and (min-width: 850px) {
 
     .new-p-container {
@@ -71,6 +79,13 @@
     .new-products {
         display: inline-flex;
         justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .inspired-products {
+        flex-direction: row;
+        width: 70%;
+        margin: 50px auto;
         flex-wrap: wrap;
     }
 }
