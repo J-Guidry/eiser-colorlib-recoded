@@ -12,11 +12,6 @@
     text-align: center;
 }
 
-.feature h2 {
-    text-transform : uppercase;
-    font-size: 0.8rem;
-}
-
 .feature {
     border: 1px solid $border;
     padding: 30px;
@@ -33,11 +28,6 @@
     width: auto;
     position: relative;
     overflow: hidden;
-}
-
-.feature-header {
-    text-transform: uppercase;
-    text-align: center;
 }
 
 .features-paragraph {
@@ -66,9 +56,29 @@
     
 }
 
-.featured-product:hover
+.product-image:hover
 .product-icons {
-    bottom: 0;
+    bottom: 130px;
+}
+
+.product-price {
+    text-transform: uppercase;
+    border: 2px solid $off-white;
+    padding: 15px;
+}
+
+.product-price del, .price {
+    display: inline-block;
+}
+
+.price {
+    color: $black;
+    font-size: 1.3rem;
+}
+
+.product-header {
+    font-size: 14px;
+    color: $black;
 }
 
 @media screen and (min-width: 780px) {

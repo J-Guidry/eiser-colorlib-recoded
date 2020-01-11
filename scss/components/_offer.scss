@@ -1,0 +1,39 @@
+.offer-section {
+    background-color: $off-white;
+    text-align: center;
+    color: $black;
+}
+
+.offer-content {
+    padding: 2rem;
+}
+
+.offer-heading,
+.offer-2nd-heading {
+    text-transform: uppercase;
+}
+
+.offer-heading {
+    font-size: 3rem;
+}
+
+.offer-2nd-heading {
+    color: $icon;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.offer-description {
+    text-transform: capitalize;
+    margin-top: 30px;
+}
+
+@media screen and (min-width: 900px) {
+    .offer-section {
+        @include background-image('../img/offer-bg.png', cover);
+    }
+
+    .offer-content {
+        margin-left: 20%;
+    }
+}

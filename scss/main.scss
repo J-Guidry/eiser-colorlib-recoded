@@ -1,8 +1,12 @@
 
 @import 'base/_base.scss';
 
+@import 'layout/_navigation.scss';
+
+@import 'components/_headings.scss';
 @import 'components/_banner.scss';
 @import 'components/_buttons.scss';
 @import 'components/_features.scss';
+@import 'components/_offer.scss';
+@import 'components/_new_products.scss';
 
-@import 'layout/_navigation.scss';
