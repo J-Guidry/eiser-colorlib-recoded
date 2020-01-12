@@ -1,0 +1,44 @@
+.latest-blog {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: 30px auto;
+}
+
+.blog-post {
+    margin: 2rem;
+}
+
+.author {
+    text-transform: capitalize;
+}
+
+.post-title {
+    font-size: 20px;
+    color: $black;
+}
+
+.blog-btn {
+    color: $black;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.ti-arrow-right {
+    margin-left: 5px;
+}
+
+.comment-amount {
+    float: right;
+    margin-right: 70px;
+}
+
+
+@media screen and (min-width: 850px) {
+    .latest-blog {
+        flex-direction: row;
+        width: 75%;
+        //margin: 30px auto;
+    }
+}
