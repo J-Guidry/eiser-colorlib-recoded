@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'font-awesome';
-  src:  url('fonts/font-awesome.eot?rqajg3');
-  src:  url('fonts/font-awesome.eot?rqajg3#iefix') format('embedded-opentype'),
-    url('fonts/font-awesome.ttf?rqajg3') format('truetype'),
-    url('fonts/font-awesome.woff?rqajg3') format('woff'),
-    url('fonts/font-awesome.svg?rqajg3#font-awesome') format('svg');
+  src:  url('fonts/font-awesome.eot?rmtsa7');
+  src:  url('fonts/font-awesome.eot?rmtsa7#iefix') format('embedded-opentype'),
+    url('../fonts/font-awesome.ttf?rmtsa7') format('truetype'),
+    url('../fonts/font-awesome.woff?rmtsa7') format('woff'),
+    url('fonts/font-awesome.svg?rmtsa7#font-awesome') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -34,6 +34,9 @@
 .icon-lock:before {
   content: "\f023";
 }
+.icon-twitter:before {
+  content: "\f099";
+}
 .icon-caret-down:before {
   content: "\f0d7";
 }
@@ -45,6 +48,9 @@
 }
 .icon-caret-right:before {
   content: "\f0da";
+}
+.icon-behance:before {
+  content: "\f1b4";
 }
 .icon-diamond:before {
   content: "\f219";

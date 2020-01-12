@@ -162,6 +162,18 @@ img {
   line-height: 24px;
 }
 
+.footer-nav {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-nav:last-of-type {
+  margin-bottom: 80px;
+}
+
+.footer-nav li {
+  line-height: 2.2rem;
+}
+
 @media screen and (min-width: 580px) {
   .main-menu {
     width: 85%;
@@ -267,6 +279,109 @@ img {
   }
 }
 
+footer {
+  background-color: #0d0d1f;
+  color: white;
+  padding: 20px;
+  padding-top: 30px;
+  padding-left: 5%;
+}
+
+.footer-nav {
+  text-transform: capitalize;
+}
+
+.copyright {
+  margin-bottom: 10px;
+  margin-right: auto;
+}
+
+.colorlib {
+  color: #71cd14;
+}
+
+.footer-hr {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 25px;
+}
+
+.heart {
+  height: 15px;
+  color: #71cd14;
+}
+
+.footer-nav li:hover {
+  color: #fff;
+}
+
+.email {
+  padding: 15px;
+  background-color: #2a2a2a;
+  color: #797979;
+  border: none;
+  height: 1.3rem;
+}
+
+.form-submit {
+  text-transform: uppercase;
+  border: none;
+  background-color: #71cd14;
+  padding: 10px;
+  color: white;
+  font-size: 12px;
+  position: relative;
+  right: 5%;
+}
+
+.social-media {
+  padding-top: 30px;
+  margin-right: auto;
+}
+
+.social-media a {
+  background-color: #111;
+  padding: 15px;
+  color: #ccc;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.social-media i {
+  color: white;
+}
+
+@media screen and (min-width: 700px) {
+  .footer-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+  }
+  .footer-nav {
+    margin-right: 2rem;
+  }
+  .about-newsletter {
+    width: 50%;
+    display: inline-block;
+  }
+  .copyright {
+    margin-right: auto;
+    margin-left: unset;
+    width: 45%;
+  }
+  .social-media {
+    margin-left: auto;
+    margin-right: unset;
+  }
+}
+
 .banner-heading {
   line-height: 40px;
   text-transform: uppercase;
@@ -290,6 +405,12 @@ img {
   text-align: center;
   color: #2a2a2a;
   text-transform: uppercase;
+}
+
+.footer-heading {
+  text-transform: capitalize;
+  color: white;
+  line-height: 1.4rem;
 }
 
 .banner {

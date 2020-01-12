@@ -113,6 +113,18 @@
     line-height: 24px;
 }
 
+.footer-nav {
+    color: rgba(255,255,255, 0.5);
+}
+
+.footer-nav:last-of-type {
+    margin-bottom: 80px;
+}
+
+.footer-nav li {
+    line-height: 2.2rem;
+}
+
 @media screen and (min-width: 580px) {
     .main-menu {
         width: 85%;
