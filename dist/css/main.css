@@ -279,6 +279,18 @@ img {
   }
 }
 
+.scroll-header {
+  -webkit-box-shadow: 0px 15px 10px -5px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 15px 10px -5px rgba(0, 0, 0, 0.25);
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  background-color: white;
+  width: 100%;
+}
+
 footer {
   background-color: #0d0d1f;
   color: white;

@@ -2,6 +2,7 @@ const headerNav = document.querySelector(".header-nav");
 const mobileToggle = document.querySelector(".toggle-nav");
 const dropdownToggle = document.querySelectorAll(".dropdown-toggle");
 const navList = document.querySelector(".nav-list");
+const header = document.querySelector(".main-menu");
 
 function toggleNav() {
     headerNav.classList.toggle("nav-active");
@@ -33,3 +34,12 @@ function toggleDropdown(){
 dropdownToggle.forEach(function(toggle) {
     toggle.addEventListener("click", toggleDropdown);
 });
+
+function toggle(){
+    window.scrollY > 80 ? 
+    header.classList.add("scroll-header") :
+    header.classList.remove("scroll-header");
+}
+
+window.addEventListener("scroll", toggle, {passive: true});
+window.addEventListener("touchmove", toggle, {passive: true});
