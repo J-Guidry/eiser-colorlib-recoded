@@ -55,7 +55,7 @@
     bottom: 130px;
 }
 
-.inspired-products {
+.inspired-products, .products-section {
     display: flex;
     flex-direction: column;
     width: 85%;
@@ -82,10 +82,14 @@
         flex-wrap: wrap;
     }
 
-    .inspired-products {
+    .inspired-products, .products-section {
         flex-direction: row;
         width: 70%;
         margin: 50px auto;
         flex-wrap: wrap;
     }
+
+    // .products-section {
+    //     display: inline-flex;
+    // }
 }
