@@ -71,7 +71,16 @@
         </div>
       </div>
     </footer>
-    <script type="module" src="./js/slimselect.min.js"></script>
+    
+    {{#if slim}}
+      <script type="module" src="./js/slimselect.min.js"></script>
+      <script type="module" src="./js/selected.js"></script>
+    {{/if}}
+    {{#if slide}}
+      <script src="./js/tiny-slider.min.js"></script>
+      
+      <script src="./js/single-product.js"></script>
+    {{/if}}
     <script type="module" src="./js/main.js"></script>
 </body>
 </html>

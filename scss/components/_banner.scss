@@ -26,15 +26,15 @@
     margin-left: 2rem;
 }
 
-.category-heading-group {
+.top-heading-group {
     display: inline-block;
 }
 
-.category-banner-paragraph {
+.top-banner-paragraph {
     font-weight: 300;
 }
 
-.category-banner {
+.top-banner {
     display: flex;
     flex-direction: column;
     background-color: $off-white;
@@ -65,14 +65,14 @@
 }
 
 @media screen and (min-width: 750px) {
-    .category-banner {
+    .top-banner {
         //width: 75%;
         //margin: auto;
         flex-direction: row;
         justify-content: space-around;
     }
-
-    .category-banner-paragraph {
+       
+    .top-banner-paragraph {
         text-align: left;
     }
 

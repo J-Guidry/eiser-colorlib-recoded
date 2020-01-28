@@ -8,6 +8,7 @@ function basic() {
         .src('./src/*.hbs')
         .pipe(hb()
             .partials('./src/partials/*.hbs')
+            .data('./src/assets/data/**/*.{js,json}')
         )
         .pipe(rename({ extname: '.html' }))
         .pipe(gulp.dest('./dist'));
