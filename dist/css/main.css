@@ -31,7 +31,6 @@ p {
 img {
   max-width: 100%;
   height: auto;
-  width: 100%;
 }
 
 .top-menu {
@@ -419,6 +418,12 @@ footer {
   text-transform: uppercase;
 }
 
+.comment-user {
+  text-transform: capitalize;
+  color: #2a2a2a;
+  margin: 10px 0;
+}
+
 .product-info .heading {
   text-align: left;
 }
@@ -430,10 +435,25 @@ footer {
   font-weight: 500;
 }
 
+.post-heading {
+  color: #2a2a2a;
+  text-transform: capitalize;
+  text-align: left;
+}
+
 .footer-heading {
   text-transform: capitalize;
   color: white;
   line-height: 1.4rem;
+}
+
+.score-heading {
+  font-size: 25px;
+  font-weight: bold;
+  color: #2a2a2a;
+  font-family: "Heebo";
+  font-weight: 500;
+  text-transform: capitalize;
 }
 
 .banner {
@@ -553,6 +573,29 @@ footer {
       align-self: flex-start;
   margin-top: 20px;
   margin-left: 2rem;
+}
+
+.reply {
+  position: absolute;
+  right: 0;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 12px;
+  text-transform: capitalize;
+  border: none;
+  background-color: white;
+  border: 1px solid #e0e0e0;
+}
+
+.form-btn {
+  text-transform: uppercase;
+  background-color: #71cd14;
+  color: white;
+  padding: 1.0rem;
+  border-radius: 8px;
+  font-size: 12px;
+  display: block;
+  margin-left: auto;
 }
 
 .features-section {
@@ -1225,6 +1268,185 @@ footer {
   #carousel-thumbnails {
     right: 0;
     bottom: 10%;
+  }
+}
+
+.product-description-section {
+  width: 90%;
+  margin: 40px auto;
+}
+
+.tab-links {
+  background-color: #f6f6f6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 15px 0;
+  margin: 0;
+}
+
+.nav-link {
+  background-color: white;
+  padding: 8px 20px;
+  margin-right: 10px;
+  text-transform: capitalize;
+  color: #2a2a2a;
+  font-size: 13px;
+}
+
+.tab-active {
+  background-color: #71cd14;
+  color: white;
+}
+
+.table {
+  width: 100%;
+  background-color: transparent;
+  border-collapse: collapse;
+}
+
+.table td {
+  padding: 10px 40px;
+}
+
+.panel {
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  padding: 25px;
+}
+
+.panel-active {
+  display: block;
+}
+
+.table tr {
+  border-top: 1px solid #f6f6f6;
+  border-bottom: 2px solid #eee;
+}
+
+.table tr:first-child {
+  border-top: none;
+}
+
+.comment-heading {
+  position: relative;
+  display: inline-block;
+  width: 80%;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.comment {
+  margin-top: 15px;
+}
+
+.comment-reply {
+  margin-left: 40px;
+}
+
+.form-field {
+  padding: 10px;
+  color: #797979;
+  border: 1px #ced4da solid;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.review-amount h3 {
+  text-transform: capitalize;
+}
+
+.overall {
+  background-color: #f6f6f6;
+}
+
+.icon-star {
+  color: #fbd600;
+}
+
+.star {
+  margin-left: 8px;
+}
+
+.score-number {
+  color: #71cd14;
+  font-size: 3rem;
+  text-align: center;
+  margin: 25px 0;
+}
+
+.overall {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.rating {
+  text-transform: capitalize;
+  display: inline;
+}
+
+.rating-choice {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.rating-choice li {
+  margin-right: 3px;
+}
+
+.score {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.review-amount,
+.overall {
+  width: 50%;
+  margin: 10px;
+}
+
+@media screen and (min-width: 950px) {
+  .product-description-section {
+    width: 70%;
+    margin: auto;
+  }
+  .review-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .comment-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .comments {
+    width: 50%;
+    margin-right: 10px;
+  }
+  .post-comment {
+    width: 50%;
+  }
+  .reviews {
+    width: 50%;
+  }
+  .add-review {
+    width: 50%;
+    margin: 10px;
   }
 }
 /*# sourceMappingURL=main.css.map */

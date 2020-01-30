@@ -3,7 +3,6 @@ const mobileToggle = document.querySelector(".toggle-nav");
 const dropdownToggle = document.querySelectorAll(".dropdown-toggle");
 const navList = document.querySelector(".nav-list");
 const header = document.querySelector(".main-menu");
-//const categoryDropdowns = document.querySelectorAll(".product-dropdown");
 
 function toggleNav() {
     headerNav.classList.toggle("nav-active");
@@ -44,38 +43,3 @@ function toggle(){
 
 window.addEventListener("scroll", toggle, {passive: true});
 window.addEventListener("touchmove", toggle, {passive: true});
-
-
-// function switchLi(oldTab, chosenTab) {
-//     chosenTab.focus();
-//     //chosenTab.setAttribute("aria-selected", "true");
-//     chosenTab.classList.toggle("selected");
-//     //oldTab.setAttribute("aria-selected", 'false');
-//     oldTab.classList.toggle("selected");
-//     let index = Array.prototype.indexOf.call(categoryDropdowns,chosenTab);
-//     let oldIndex = Array.prototype.indexOf.call(categoryDropdowns,oldTab);
-//     // panels[oldIndex].classList.toggle("active");
-//     // panels[oldIndex].setAttribute("aria-hidden", "true");
-//     // panels[index].classList.toggle("active");
-//     // panels[index].setAttribute("aria-hidden", "false");
-// }
-
-// categoryDropdowns.forEach(function(Li, i) {
-    
-//     Li.addEventListener('keydown', e => { 
-//         Li.focus(); 
-//         let index = Array.prototype.indexOf.call(categoryDropdowns, e.currentTarget);
-//         console.log(index);
-//         let dir = e.which === 38 ? index - 1 
-//                 : e.which === 40 ? index + 1 
-//                 : e.which === 27 ? 'escape' : null;
-
-//         if (dir !== null) {
-//             e.preventDefault();
-//             dir === 'escape' ? Li.blur() 
-//                 : categoryDropdowns[dir] ? switchLi(e.currentTarget, categoryDropdowns[dir]) 
-//                 : void 0;
-//         }
-//     });
-
-// });

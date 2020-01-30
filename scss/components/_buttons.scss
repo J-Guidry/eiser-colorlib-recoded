@@ -12,3 +12,27 @@
     margin-top: 20px;
     margin-left: 2rem;
 }
+
+.reply {
+    position: absolute;
+    right: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 12px;
+    text-transform: capitalize;
+    border: none;
+    background-color: white;
+    border: 1px solid #e0e0e0;
+}
+
+.form-btn {
+    text-transform: uppercase;
+    background-color: $green;
+    color: white;
+    padding: 1.0rem;
+    border-radius: 8px;
+    font-size: 12px;
+    display: block;
+    margin-left: auto;
+
+}

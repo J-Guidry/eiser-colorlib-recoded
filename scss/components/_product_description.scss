@@ -1,0 +1,169 @@
+.product-description-section {
+    width: 90%;
+    margin: 40px auto;
+}
+
+.tab-links {
+    background-color: $off-white;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    margin: 0;
+}
+
+.nav-link {
+    background-color: white;
+    padding: 8px 20px;
+    margin-right: 10px;
+    text-transform: capitalize;
+    color: $black;
+    font-size: 13px;
+}
+
+.tab-active {
+    background-color: $green;
+    color: white;
+}
+
+.table {
+    width: 100%;
+    background-color: transparent;
+    border-collapse: collapse;
+}
+
+.table td {
+    padding: 10px 40px;
+}
+
+.panel {
+    //display: none;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding: 25px;
+}
+
+.panel-active {
+    display: block;
+}
+
+.table tr {
+    border-top: 1px solid $off-white;
+    border-bottom: 2px solid #eee;
+}
+
+.table tr:first-child {
+    border-top: none;
+}
+
+.comment-heading {
+    position: relative;
+    display: inline-block;
+    width: 80%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.comment {
+    margin-top: 15px;
+}
+
+.comment-reply {
+    margin-left: 40px;
+}
+
+.form-field {
+    padding: 10px;
+    color: $text;
+    border: 1px #ced4da solid;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.review-amount h3 {
+    text-transform: capitalize;
+}
+
+.overall {
+    background-color: $off-white;
+}
+
+.icon-star {
+    color: $star;
+}
+
+.star {
+    margin-left: 8px;
+}
+
+.score-number {
+    color: $green;
+    font-size: 3rem;
+    text-align: center;
+    margin: 25px 0;
+}
+
+.overall {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.rating {
+    text-transform: capitalize;
+    display: inline;
+}
+
+.rating-choice {
+    display: inline-flex;
+}
+
+.rating-choice li {
+    margin-right: 3px;
+}
+
+.score {
+    display: flex;
+}
+
+.review-amount,
+.overall {
+    width: 50%;
+    margin: 10px;
+}
+
+@media screen and (min-width: 950px) {
+    .product-description-section {
+        width: 70%;
+        margin: auto;
+    }
+
+    .review-section {
+        display: flex;
+    }
+
+    .comment-section {
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .comments {
+        width: 50%;
+        margin-right: 10px;
+    }
+
+    .post-comment {
+        width: 50%;
+    }
+
+    .reviews {
+        width: 50%;
+    }
+
+    .add-review {
+        width: 50%;
+        margin: 10px;
+    }
+
+}
