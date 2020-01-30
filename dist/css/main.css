@@ -1284,8 +1284,20 @@ footer {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   padding: 15px 0;
   margin: 0;
+}
+
+.tab-links a.tab-active {
+  color: white;
+  background-color: #71cd14;
+  padding: 10px;
+}
+
+.presentation {
+  padding: 10px;
 }
 
 .nav-link {
@@ -1313,14 +1325,15 @@ footer {
 }
 
 .panel {
-  border-left: 1px solid #eee;
-  border-right: 1px solid #eee;
-  border-bottom: 1px solid #eee;
-  padding: 25px;
+  display: none;
 }
 
 .panel-active {
   display: block;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  padding: 25px;
 }
 
 .table tr {
@@ -1412,9 +1425,25 @@ footer {
   margin: 10px;
 }
 
+@media screen and (max-width: 580px) {
+  .score {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .review-amount,
+  .overall {
+    width: 100%;
+  }
+}
+
 @media screen and (min-width: 950px) {
   .product-description-section {
-    width: 70%;
+    width: 80%;
     margin: auto;
   }
   .review-section {
@@ -1447,6 +1476,9 @@ footer {
   .add-review {
     width: 50%;
     margin: 10px;
+  }
+  .review-amount i {
+    padding-right: 0px;
   }
 }
 /*# sourceMappingURL=main.css.map */

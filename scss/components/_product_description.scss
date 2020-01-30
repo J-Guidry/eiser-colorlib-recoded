@@ -7,8 +7,19 @@
     background-color: $off-white;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     padding: 15px 0;
     margin: 0;
+}
+
+.tab-links a.tab-active {
+    color: white;
+    background-color: $green;
+    padding: 10px;
+}
+
+.presentation {
+    padding: 10px;
 }
 
 .nav-link {
@@ -36,15 +47,15 @@
 }
 
 .panel {
-    //display: none;
-    border-left: 1px solid #eee;
-    border-right: 1px solid #eee;
-    border-bottom: 1px solid #eee;
-    padding: 25px;
+    display: none;
 }
 
 .panel-active {
     display: block;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding: 25px;
 }
 
 .table tr {
@@ -132,9 +143,21 @@
     margin: 10px;
 }
 
+@media screen and (max-width: 580px) {
+    .score {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .review-amount,
+    .overall {
+        width: 100%;
+    }
+}
+
 @media screen and (min-width: 950px) {
     .product-description-section {
-        width: 70%;
+        width: 80%;
         margin: auto;
     }
 
@@ -166,4 +189,9 @@
         margin: 10px;
     }
 
+    .review-amount i{
+        padding-right: 0px;
+    }
+
 }
+

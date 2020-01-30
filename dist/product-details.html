@@ -191,11 +191,11 @@
             <a role="tab" href="#" aria-selected="false" class="nav-link">comments</a>
         </li>
         <li class="presentation">
-            <a role="tab" href="#" aria-selected="false" class="nav-link">reviews</a>
+            <a role="tab" href="#" aria-selected="true" class="nav-link tab-active">reviews</a>
         </li>
     </ul>
     <div class="tab-content">
-        <div class="panel panel-active" role="tabpanel" aria-hidden="true" aria-labelledby="">
+        <section class="panel" role="tabpanel" aria-hidden="true" aria-labelledby="tab1">
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae qui voluptatum illo eum corporis labore minus velit eveniet sit itaque dolorum, ipsam possimus quod blanditiis architecto aperiam ea optio praesentium.
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit quia deleniti nisi laborum, aliquid culpa vero et molestiae cum hic expedita commodi quas sit iusto nemo aperiam amet! Ipsa, tempore?
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni accusamus atque aspernatur dignissimos et quisquam omnis amet eius praesentium. Deserunt quaerat molestiae in eveniet hic, asperiores fuga quasi sequi veritatis!
@@ -204,8 +204,8 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium autem itaque, nulla omnis consectetur quibusdam. Id soluta deserunt a laborum repellendus quod accusantium rerum! Sequi dolorem adipisci iusto asperiores totam.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Id saepe inventore facere nobis voluptatum quam consectetur molestias veniam sint, blanditiis nisi quasi illum ex ut laborum nostrum nam, debitis doloribus?
             </p>
-        </div>
-        <div class="panel" role="tabpanel" aria-hidden="true" aria-labelledby="">
+        </section>
+        <section class="panel" role="tabpanel" aria-hidden="true" aria-labelledby="tab2">
             <div class="responsive-table">
                 <table class="table">
                     <tbody>
@@ -244,8 +244,9 @@
                     </tbody>
                 </table>
             </div>
-        </div>
-        <div class="panel comment-section" role="tabpanel" aria-hidden="true" aria-labelledby="">
+        </section>
+        <section class="panel" role="tabpanel" aria-hidden="true" aria-labelledby="tab3">
+            <div class="comment-section">
             <div class="comments">
                 <div class="comment">
                     <span class="face">
@@ -291,8 +292,10 @@
                     <button class="form-btn">sumbit now</button>
                 </form>
             </div>
-        </div>
-        <div class="panel review-section" role="tabpanel" aria-hidden="true" aria-labelledby="">
+            </div>
+        </section>
+        <section class="panel panel-active" role="tabpanel" aria-hidden="false" aria-labelledby="tab4">
+            <div class="review-section">
             <div class="reviews">
                 <div class="score">
                     <div class="overall">
@@ -408,8 +411,9 @@
                     <button class="form-btn">sumbit now</button>
                 </form>
 
-        </div>
-    </div>
+            </div>
+            </div>
+    </section>
 </section>
     
 <footer>
