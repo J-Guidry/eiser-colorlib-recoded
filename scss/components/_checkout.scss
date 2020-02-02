@@ -1,0 +1,141 @@
+.checkout {
+    width: 95%;
+    margin: auto;
+}
+
+
+
+.return-title {
+    background-color: $off-white;
+    padding: 20px;
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.click-login {
+    color: $green;
+    text-decoration: underline;
+}
+
+.checkbox {
+    display: inline-block;
+}
+
+.billing h2 {
+    text-transform: capitalize;
+    color: $black;
+}
+
+.lost-password {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.coupon-link {
+    text-transform: uppercase;
+    padding: 10px;
+    border: 1px solid $off-white;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    //font-weight: bold;
+    color: $black;
+}
+
+.coupon-input {
+    padding: 5px;
+    margin-top: 15px;
+}
+
+.total {
+    float: right;
+    text-transform: capitalize;
+}
+
+.product-amount {
+    padding-left: 5%;
+}
+
+.bold-total {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: $black;
+}
+
+.order {
+    background-color: $off-white;
+    padding: 15px;
+    font-weight: 400;
+}
+
+.order h2 {
+    padding: 5px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    margin: 10px;
+    color: $black;
+    text-transform: capitalize;
+}
+
+.pay-label, .pal-label {
+    text-transform: uppercase;
+    color: $black;
+    font-weight: 500;
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+.check-paragraph {
+    background-color: white;
+    padding: 15px;
+    color: $black;
+    text-transform: capitalize;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.check-highlight {
+    color: $green;
+}
+
+.order li {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding: 10px;
+}
+
+.billing textarea {
+    margin-top: 20px;
+}
+
+@media screen and (min-width: 950px) {
+    .checkout {
+        width: 70%;
+        margin: auto;
+    }
+
+    .fname, .lname, .pnumber, .form-email {
+        width: 43%;
+        display: inline-block;
+    }
+
+    .billing-order-flex {
+        display: flex;
+    }
+
+    .billing {
+        width: 60%;
+    }
+
+    .order {
+        width: 40%;
+    }
+
+    .signin-before {
+        width: 30%;
+        display: inline-block;
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+}

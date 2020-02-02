@@ -290,6 +290,21 @@ img {
   width: 100%;
 }
 
+.form-field {
+  padding: 10px;
+  color: #797979;
+  border: 1px #ced4da solid;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  width: 90%;
+}
+
+.returning-customer .form-btn {
+  margin: unset;
+  display: inline-block;
+  margin-right: 10px;
+}
+
 footer {
   background-color: #0d0d1f;
   color: white;
@@ -596,6 +611,22 @@ footer {
   font-size: 12px;
   display: block;
   margin-left: auto;
+  margin-right: 5vh;
+}
+
+.order-btn {
+  text-transform: uppercase;
+  background-color: #71cd14;
+  color: white;
+  padding: 1.0rem;
+  border-radius: 8px;
+  font-size: 12px;
+  display: block;
+  margin-right: 5vh;
+  text-align: center;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .features-section {
@@ -1361,15 +1392,6 @@ footer {
   margin-left: 40px;
 }
 
-.form-field {
-  padding: 10px;
-  color: #797979;
-  border: 1px #ced4da solid;
-  border-radius: 5px;
-  margin-bottom: 15px;
-  width: 100%;
-}
-
 .review-amount h3 {
   text-transform: capitalize;
 }
@@ -1479,6 +1501,143 @@ footer {
   }
   .review-amount i {
     padding-right: 0px;
+  }
+}
+
+.checkout {
+  width: 95%;
+  margin: auto;
+}
+
+.return-title {
+  background-color: #f6f6f6;
+  padding: 20px;
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.click-login {
+  color: #71cd14;
+  text-decoration: underline;
+}
+
+.checkbox {
+  display: inline-block;
+}
+
+.billing h2 {
+  text-transform: capitalize;
+  color: #2a2a2a;
+}
+
+.lost-password {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.coupon-link {
+  text-transform: uppercase;
+  padding: 10px;
+  border: 1px solid #f6f6f6;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #2a2a2a;
+}
+
+.coupon-input {
+  padding: 5px;
+  margin-top: 15px;
+}
+
+.total {
+  float: right;
+  text-transform: capitalize;
+}
+
+.product-amount {
+  padding-left: 5%;
+}
+
+.bold-total {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #2a2a2a;
+}
+
+.order {
+  background-color: #f6f6f6;
+  padding: 15px;
+  font-weight: 400;
+}
+
+.order h2 {
+  padding: 5px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+  margin: 10px;
+  color: #2a2a2a;
+  text-transform: capitalize;
+}
+
+.pay-label, .pal-label {
+  text-transform: uppercase;
+  color: #2a2a2a;
+  font-weight: 500;
+  font-size: 13px;
+  margin-left: 5px;
+}
+
+.check-paragraph {
+  background-color: white;
+  padding: 15px;
+  color: #2a2a2a;
+  text-transform: capitalize;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.check-highlight {
+  color: #71cd14;
+}
+
+.order li {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  padding: 10px;
+}
+
+.billing textarea {
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 950px) {
+  .checkout {
+    width: 70%;
+    margin: auto;
+  }
+  .fname, .lname, .pnumber, .form-email {
+    width: 43%;
+    display: inline-block;
+  }
+  .billing-order-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .billing {
+    width: 60%;
+  }
+  .order {
+    width: 40%;
+  }
+  .signin-before {
+    width: 30%;
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 15px;
   }
 }
 /*# sourceMappingURL=main.css.map */
