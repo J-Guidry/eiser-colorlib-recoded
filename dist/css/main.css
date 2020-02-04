@@ -581,6 +581,8 @@ footer {
   padding: 1.0rem;
   border-radius: 8px;
   font-size: 12px;
+  font-weight: 500;
+  display: inline-block;
 }
 
 .banner-btn {
@@ -612,6 +614,20 @@ footer {
   display: block;
   margin-left: auto;
   margin-right: 5vh;
+}
+
+.gray-btn {
+  border: 1px solid #f6f6f6;
+  padding: 1rem;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #2a2a2a;
+  background-color: #f6f6f6;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-weight: 500;
 }
 
 .order-btn {
@@ -1615,7 +1631,7 @@ footer {
 
 @media screen and (min-width: 950px) {
   .checkout {
-    width: 70%;
+    width: 75%;
     margin: auto;
   }
   .fname, .lname, .pnumber, .form-email {
@@ -1638,6 +1654,94 @@ footer {
     display: inline-block;
     padding: 10px;
     margin-bottom: 15px;
+    margin-right: 25px;
+  }
+}
+
+.cart {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+
+.cart-table, .coupon, .cart-total {
+  margin: auto;
+}
+
+.cart-table input {
+  width: 50px;
+}
+
+.cart-table thead {
+  text-transform: capitalize;
+}
+
+.cart-table td {
+  width: 140px;
+}
+
+.cart-table td:nth-child(2),
+.cart-table td:nth-child(4) {
+  font-weight: bold;
+  color: #2a2a2a;
+}
+
+.coupon a {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 30px;
+  text-transform: uppercase;
+}
+
+.coupon-input {
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.shipping-choice li {
+  text-transform: capitalize;
+  margin-bottom: 5px;
+}
+
+.cart-total p {
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.subtotal,
+.shipping-label {
+  color: #2a2a2a;
+}
+
+.shipping select {
+  text-transform: capitalize;
+  background-color: #f6f6f6;
+  padding: 10px;
+  display: block;
+  margin-toP: 20px;
+  margin-bottom: 20px;
+  border: none;
+}
+
+.proceed-checkout {
+  margin-top: 20px;
+}
+
+.zip {
+  background-color: #f6f6f6;
+  padding: 10px;
+  border: none;
+}
+
+@media screen and (min-width: 900px) {
+  .cart {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .cart-table td {
+    width: 20%;
   }
 }
 /*# sourceMappingURL=main.css.map */

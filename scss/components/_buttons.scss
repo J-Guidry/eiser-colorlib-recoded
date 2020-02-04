@@ -5,6 +5,8 @@
     padding: 1.0rem;
     border-radius: 8px;
     font-size: 12px;
+    font-weight: 500;
+    display: inline-block;
 }
 
 .banner-btn {
@@ -35,6 +37,20 @@
     display: block;
     margin-left: auto;
     margin-right: 5vh;
+}
+
+.gray-btn {
+    border: 1px solid $off-white;
+    padding: 1rem;
+    display: inline-block;
+    text-transform: uppercase;
+    color: $black;
+    background-color: $off-white;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-weight: 500;
 }
 
 .order-btn {
