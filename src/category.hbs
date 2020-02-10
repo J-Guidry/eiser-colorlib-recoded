@@ -15,14 +15,6 @@
     <div class="products">
         <div class="product-topbar">
             <div class="product-drop-group">
-                {{!-- <button class="dropdown-toggle product-drop" href="#">
-                    Default sorting <i class="icon-caret-down"></i>
-                    </button>
-                <ul class="dropdown product-dropdown" aria-hidden="true" role="menu">
-                    <li>Default sorting</li>
-                    <li>Default sorting 01</li>
-                    <li>Default sorting 02</li>
-                </ul> --}}
             <select name="" id="" class="p-sort">
                 <option value="Default sorting">Default sorting</option>
                 <option value="Default sorting 01">Default sorting 01</option>
@@ -35,23 +27,7 @@
                 <option value="show 14">show 14</option>
                 <option value="show 16">show 16</option>
             </select>
-                {{!-- <button class="dropdown-toggle product-drop" href="#">
-                    Show 12 <i class="icon-caret-down"></i>
-                    </button>
-                <ul class="dropdown product-dropdown" aria-hidden="true" role="menu">
-                    <li>show 12</li>
-                    <li>show 14</li>
-                    <li>show 16</li>
-                </ul> --}}
             </div>
-
-            {{!-- <select name="" id="" class="ex">
-                <option value="Default sorting">Default sorting</option>
-                <option value="Default sorting 01">Default sorting 01</option>
-                <option value="Default sorting 02">Default sorting 02</option>
-            </select> --}}
-
-
         </div>
         <div class="products-section">
             <div class="new-product">
@@ -259,4 +235,4 @@
 
 </section>
 </main>
-{{> footer data}}
+{{> footer slim=true}}

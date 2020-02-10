@@ -14,41 +14,14 @@
     padding: 15px 0;
 }
 
-// .product-drop {
-//     padding: 10px;
-//     background-color: white;
-//     display: block;
-//     border: 1px solid #eee;
-//     margin: auto;
-//     width: 80%;
-//     text-align: left;
-//     cursor: pointer;
-//     color: $text;
-//     text-transform: capitalize;
-// }
-
 .product-drop-group {
     position: relative;
     display: inline-block;
 }
 
-// .product-dropdown {
-//     //overflow: hidden;
-//     position: absolute;
-//     left: 0;
-//     top: 40px;
-//     z-index: 1;
-//     background-color: white;
-//     box-shadow: 0 0 0 1px rgba(68, 68, 68, 0.11);
-//     padding: 5px;
-// }
-
 .p-sort, .p-show {
-    //padding: 10px;
-    //display: inline-block;
     border: 1px solid #eee;
     margin: auto;
-    //width: 40%;
     text-align: left;
     cursor: pointer;
     color: $text;

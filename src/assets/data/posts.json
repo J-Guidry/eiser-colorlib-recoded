@@ -1,0 +1,34 @@
+{
+    "blog_posts": [
+        {
+            "month": "Jan",
+            "day": "21",
+            "time": "2:43 PM",
+            "title":"Google inks pact for new 35-story office",
+            "post":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis",
+            "tags": ["Travel", "Lifestyle"],
+            "image": "img/blog/main-blog/m-blog-1.jpg",
+            "comment-amount": "03"
+        },
+        {
+            "month": "Jan",
+            "day": "15",
+            "time": "7:34 AM",
+            "title":"Lorem Ipsum",
+            "post":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis",
+            "tags": "Food",
+            "image": "img/blog/main-blog/m-blog-2.jpg",
+            "comment-amount": "08"
+        },
+        {
+            "month": "Jan",
+            "day": "6",
+            "time": "5:15 PM",
+            "title":"Lorem Ipsum",
+            "post":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis",
+            "tags": "Clothes",
+            "image": "img/blog/main-blog/m-blog-3.jpg",
+            "comment-amount": "01"
+        }
+    ]
+}

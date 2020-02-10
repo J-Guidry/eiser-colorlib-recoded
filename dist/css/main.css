@@ -645,6 +645,13 @@ footer {
   margin-bottom: 10px;
 }
 
+.icon-btn {
+  background-color: #fff;
+  border: 1px solid #f0e9ff;
+  height: 35px;
+  border-left: 0;
+}
+
 .features-section {
   width: 90%;
   margin: auto;
@@ -915,6 +922,16 @@ footer {
   }
 }
 
+.blog {
+  width: 90%;
+  margin: auto;
+}
+
+.blog-posts {
+  width: 90%;
+  margin: auto;
+}
+
 .latest-blog {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -956,6 +973,121 @@ footer {
   margin-right: 70px;
 }
 
+.image-date {
+  position: relative;
+}
+
+.date {
+  background-color: #71cd14;
+  color: white;
+  display: inline-block;
+  padding: 5px 20px;
+  text-align: center;
+  border-radius: 10px;
+  position: absolute;
+  left: 20px;
+  bottom: 0;
+}
+
+.comment-span {
+  border-left: 1px solid gray;
+  margin-left: 10px;
+  padding-left: 10px;
+  margin-right: 5px;
+}
+
+.month {
+  margin: 0;
+  margin-top: 10px;
+}
+
+.day {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.tags {
+  margin-right: 5px;
+}
+
+.post-content {
+  margin-bottom: 30px;
+}
+
+.post {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.search-bar,
+.categories,
+.recent-post-section,
+.tag-clouds,
+.instagram-feeds {
+  padding: 20px;
+  background-color: #f6f6f6;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  padding-left: 30px;
+}
+
+.search-field {
+  border-right: 0;
+}
+
+.input-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50px;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.blog-category {
+  border-top: 1px solid #f0e9ff;
+  padding: 3px;
+}
+
+.recent-post {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.recent-post-content {
+  margin-left: 15px;
+}
+
+.tag-li {
+  display: inline-block;
+}
+
+.tag {
+  display: inline-block;
+  padding: 10px;
+  color: #797979;
+  background-color: white;
+  text-transform: unset;
+}
+
+.feed {
+  margin: 10px;
+}
+
+.feeds {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 @media screen and (min-width: 850px) {
   .latest-blog {
     -webkit-box-orient: horizontal;
@@ -963,6 +1095,22 @@ footer {
         -ms-flex-direction: row;
             flex-direction: row;
     width: 75%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .blog {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 75%;
+  }
+  .blog-posts {
+    width: 75%;
+    margin: auto;
+  }
+  .side-bar {
+    margin-left: 50px;
   }
 }
 
