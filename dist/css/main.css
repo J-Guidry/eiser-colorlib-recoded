@@ -41,6 +41,10 @@ img {
   display: block;
 }
 
+.nav-links:hover {
+  color: #71cd14;
+}
+
 .logo-container {
   display: inline-block;
 }
@@ -171,6 +175,10 @@ img {
 
 .footer-nav li {
   line-height: 2.2rem;
+}
+
+.active-link {
+  color: #71cd14;
 }
 
 @media screen and (min-width: 580px) {
