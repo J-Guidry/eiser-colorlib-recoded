@@ -14,7 +14,54 @@
     margin-right: 10px;
 }
 
-// @media screen and (min-width: 800px) {
+.comment-form {
+    display: flex;
+    flex-direction: column;
+}
 
+.comment-form input,
+.comment-form textarea {
+    padding: 8px;
+    padding-left: 10px; 
+    border: 1px solid $border-white;
+    border-radius: 4px;
+    margin: 10px 0;
+}
 
-// }
+.input-row {
+    margin: 0;
+    padding: 0;
+}
+
+.tracking {
+    width: 85%;
+    margin: auto;
+}
+
+.order-form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.order-form * {
+    margin: 10px 0;
+    border: 1px solid $border-white;
+    padding-left: 10px;
+}
+
+.order-form input {
+    padding: 10px;
+}
+
+@media screen and (min-width: 800px) {
+    .tracking {
+        width: 75%;
+        margin: auto;
+    }
+
+    .order-form {
+        width: 70%;
+    }
+
+}

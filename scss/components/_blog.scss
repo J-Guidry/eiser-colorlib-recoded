@@ -280,25 +280,6 @@
     font-size: 16px;
 }
 
-.comment-form {
-    display: flex;
-    flex-direction: column;
-}
-
-.comment-form input,
-.comment-form textarea {
-    padding: 8px;
-    padding-left: 10px; 
-    border: 1px solid $border-white;
-    border-radius: 4px;
-    margin: 10px 0;
-}
-
-.input-row {
-    margin: 0;
-    padding: 0;
-}
-
 @media screen and (min-width: 850px) {
     .latest-blog {
         flex-direction: row;
