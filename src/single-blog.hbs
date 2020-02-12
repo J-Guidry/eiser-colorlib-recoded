@@ -1,0 +1,264 @@
+{{> header}}
+ <section class="top-banner">
+    <div class="top-heading-group">
+        <h1 class="top-banner-heading">blog details</h1>
+        <p class="top-banner-paragraph ">Lorem ipsum dolor sit amet, consectetur</p>
+    </div>
+    <div class="page-link">
+        <a href="#">home</a>
+        <a href="#">blog</a>
+        <a href="#">blog details</a>
+    </div>
+    </section>
+<section class="single-blog-section">
+    <section class="single-post">
+      <article>
+        <div class="image-date">
+        <img src={{posts.blog_posts.[0].image}} alt="two people at party">
+        </div>
+        <h2 class="post-heading">{{posts.blog_posts.[0].title}}</h2>
+        <i class="ti-user tags"></i>
+        <span>{{posts.blog_posts.[0].tags}}</span>
+        <p class="post-content">
+            {{posts.blog_posts.[0].post}}
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi rerum ullam id voluptatem deleniti explicabo dolores similique vel enim est iste beatae repellendus necessitatibus eum illum, ratione assumenda ipsa excepturi.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam pariatur unde nulla officia incidunt veritatis ea modi! Modi sit quisquam aut nostrum. Sequi quia ab molestiae ea dolor est praesentium!
+        </p>
+        <div class="quote-container">
+            <p class="quote">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, quisquam. Odio recusandae fugit dicta quod ratione rem qui sapiente a, quos ab, illo est deleniti autem, eum reprehenderit. Rerum, praesentium!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae illo fugiat et ea officia, libero sed quidem molestias aspernatur neque excepturi adipisci eius cupiditate perferendis quae laudantium, quis pariatur illum.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit aliquid libero, ut modi delectus placeat magni, maxime voluptatibus vel est adipisci vitae architecto ipsum, consectetur dicta rem? Illo, dolorem aliquam.
+            </p>
+        </div>
+        <p class="post-content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio eligendi exercitationem officiis possimus assumenda dolores dicta consectetur libero cumque, labore, corporis non magnam commodi porro! Nihil quibusdam esse at magnam.</p>
+      </article>
+      <section class="post-nav">
+        <div class="nav-row">
+            <p class="likes">
+                <i class="ti-heart"></i>
+                Lilly and 4 people like this 
+            </p>
+            <div class="post-comment-span">
+                <i class="ti-comments"></i>
+                <span>{{posts.blog_posts.[0].comment-amount}} Comments</span>
+            </div>
+            <div class="post-social-links">
+                <a href="#"><i class="ti-facebook"></i></a>
+                <a href="#"><i class="icon-twitter"></i></a>
+                <a href="#"><i class="ti-dribbble"></i></a>
+                <a href="#"><i class="icon-behance"></i></a>
+            </div>
+        </div>
+        <div class="prev-next-post">
+            <div class="prev">
+                <span class="prev-img-left">
+                    <a href="#" class="arrow visibility">
+                        <span class="ti-arrow-left "></span>
+                    </a>
+                </span>
+                <div class="nav-details">
+                  <p class="prev-next-label">prev post</p>
+                  <a href="#"><h4 class="post-heading">space the final frontier</h4></a>
+                </div>
+            </div>
+            <div class="next">
+                <span class="prev-img-right">
+                    <a href="#" class="arrow visibility">
+                        <span class="ti-arrow-right "></span>
+                    </a>
+                </span>
+                <div class="nav-details">
+                  <p class="prev-next-label">next post</p>
+                  <a href="#"><h4 class="post-heading">telescopes 101</h4></a>
+                </div>
+            </div>
+        </div>
+      </section>
+      <section class="blog-author">
+          <img src="img/blog/author.png" class="author-img" alt="">
+          <div class="author-info">
+              <a href="#"><h4 class="post-heading">harvard milan</h4></a>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur unde quos.</p>
+          </div>
+      </section>
+      <section class="post-comments">
+          <h5 class="post-heading">{{posts.blog_posts.[0].comment-amount}} comments</h5>
+          <div class="blog-comment">
+              <img class="author-img" src="img/blog/c1.png" alt="">
+              <div class="comment-info">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni nulla itaque incidunt tempore provident expedita voluptatibus, aut architecto laborum delectus voluptate est, ipsum ex iste neque porro reprehenderit iusto.</p>
+                  <div class="comment-info-row">
+                    <a href="#"><h5 class="blog-comment-author">Adrian Blunt</h5></a>
+                    <p class="blog-comment-date">December 4, 2015 at 2:32 pm</p>
+                    <a href="#">Reply</a>
+                  </div>
+              </div>
+          </div>
+          <div class="blog-comment">
+              <img class="author-img" src="img/blog/c2.png" alt="">
+              <div class="comment-info">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni nulla itaque incidunt tempore provident expedita voluptatibus, aut architecto laborum delectus voluptate est, ipsum ex iste neque porro reprehenderit iusto.</p>
+                  <div class="comment-info-row">
+                    <a href="#"><h5 class="blog-comment-author">Adrian Blunt</h5></a>
+                    <p class="blog-comment-date">December 4, 2015 at 2:32 pm</p>
+                    <a href="#">Reply</a>
+                  </div>
+              </div>
+          </div>
+          <div class="blog-comment">
+              <img class="author-img" src="img/blog/c3.png" alt="">
+              <div class="comment-info">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni nulla itaque incidunt tempore provident expedita voluptatibus, aut architecto laborum delectus voluptate est, ipsum ex iste neque porro reprehenderit iusto.</p>
+                  <div class="comment-info-row">
+                    <a href="#"><h5 class="blog-comment-author">Adrian Blunt</h5></a>
+                    <p class="blog-comment-date">December 4, 2015 at 2:32 pm</p>
+                    <a href="#">Reply</a>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <section class="leave-reply">
+          <h4 class="post-heading">leave a reply</h4>
+          <form action="#" class="comment-form">
+
+              <textarea placeholder="Write Comment" name="" id="" cols="30" rows="10"></textarea>
+              <div class="input-row">
+                <input placeholder="Name" type="text" name="" id="">
+                <input placeholder="Email" type="email" name="" id="">
+              </div>
+              <input placeholder="Website" type="text" name="" id="">
+              <button class="button">send message</button>
+          </form>
+      </section>
+    </section>
+    <div class="side-bar">
+        <div class="search-bar">
+          <div class="input-group">
+            <input class="form-field search-field" type="text" placeholder="Search Keyword" name="" id="">    
+            <button class="icon-btn"><i class="ti-search"></i></button>
+          </div>
+         <button class="order-btn">search</button>
+        </div>
+    <div class="categories">
+        <h3 class="post-heading">category</h3>
+        <ul>
+            <li class="blog-category">
+                <a href="#">
+                    <p>food(3)</p>
+                </a>
+            </li>
+            <li class="blog-category">
+                <a href="#">
+                    <p>travel(2)</p>
+                </a>
+            </li>
+            <li class="blog-category">
+                <a href="#">
+                    <p>clothes(1)</p>
+                </a>
+            </li>
+            <li class="blog-category">
+                <a href="#">
+                    <p>lifestyle(5)</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="recent-post-section">
+        <h3 class="post-heading">recent post</h3>
+        <div class="recent-post">
+            <img src="img/blog/popular-post/post1.jpg" alt="">
+            <div class="recent-post-content">
+                <h3 class="post-heading">Lorem Ipsum</h3>
+                <p>3 Hours ago</p>
+            </div>
+        </div>
+        <div class="recent-post">
+            <img src="img/blog/popular-post/post2.jpg" alt="">
+            <div class="recent-post-content">
+                <h3 class="post-heading">Lorem Ipsum</h3>
+                <p>3 Hours ago</p>
+            </div>
+        </div>
+        <div class="recent-post">
+            <img src="img/blog/popular-post/post3.jpg" alt="">
+            <div class="recent-post-content">
+                <h3 class="post-heading">Lorem Ipsum</h3>
+                <p>3 Hours ago</p>
+            </div>
+        </div>
+        <div class="recent-post">
+            <img src="img/blog/popular-post/post4.jpg" alt="">
+            <div class="recent-post-content">
+                <h3 class="post-heading">Lorem Ipsum</h3>
+                <p>3 Hours ago</p>
+            </div>
+        </div>
+    </div>
+    <div class="tag-clouds">
+        <h3 class="post-heading">tag clouds</h3>
+        <ul>
+            <li class="tag-li">
+                <a class="tag" href="#">clothes</a>
+            </li>
+            <li class="tag-li">
+                <a class="tag" href="#">travel</a>
+            </li>
+            <li class="tag-li">
+                <a class="tag" href="#">food</a>
+            </li>
+            <li class="tag-li">
+                <a class="tag" href="#">lifestyle</a>
+            </li>
+            <li class="tag-li">
+                <a class="tag" href="#">project</a>
+            </li>
+        </ul>
+    </div>
+    <div class="instagram-feeds">
+      <h3 class="post-heading">instagram feeds</h3>  
+      <ul class="feeds">
+          <li class="feed">
+              <a href="#">
+                  <img src="img/instagram/widget-i1.png" alt="">
+              </a>
+          </li>
+          <li class="feed">
+              <a href="#">
+                  <img src="img/instagram/widget-i2.png" alt="">
+              </a>
+          </li>
+          <li class="feed">
+              <a href="#">
+                  <img src="img/instagram/widget-i3.png" alt="">
+              </a>
+          </li>
+          <li class="feed">
+              <a href="#">
+                  <img src="img/instagram/widget-i4.png" alt="">
+              </a>
+          </li>
+          <li class="feed">
+              <a href="#">
+                  <img src="img/instagram/widget-i5.png" alt="">
+              </a>
+          </li>
+          <li class="feed">
+              <a href="#">
+                  <img src="img/instagram/widget-i6.png" alt="">
+              </a>
+          </li>
+      </ul>
+    </div>
+    <div class="search-bar">
+        <h3 class="post-heading">newsletter</h3>
+        <div class="input-group">
+         <input class="form-field search-field" type="text" placeholder="Enter email" name="" id="">    
+        </div>
+        <button class="order-btn">subscribe</button>
+    </div>
+    </div>
+</section>
+
+{{> footer}}
